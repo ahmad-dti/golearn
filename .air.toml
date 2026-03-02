@@ -1,0 +1,13 @@
+# configuration for cosmtrek/air live reload
+# https://github.com/cosmtrek/air
+
+root = "."
+
+[build]
+  cmd = "go build -o /go/bin/app ./cmd/server"
+  bin = "/go/bin/app"
+  include_ext = ["go"]
+  exclude_dir = ["build", "cmd"]
+
+[color]
+  main = "yellow"
