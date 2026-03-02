@@ -7,5 +7,5 @@ import (
 
 // HelloHandler is a simple HTTP handler used by the server.
 func HelloHandler(w http.ResponseWriter, r *http.Request) {
-    fmt.Fprintln(w, "Hello from Go in Docker!")
+    fmt.Fprintln(w, "Hello World from Go in Docker!")
 }
